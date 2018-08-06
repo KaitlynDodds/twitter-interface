@@ -55,8 +55,8 @@ Use Twitter’s REST API to access your Twitter profile information and render i
 
 * Tweets
     * message content
-    * # of retweets
-    * # of likes
+    * number of retweets
+    * number of likes
     * date tweeted  
 
 * Friends
