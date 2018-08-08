@@ -1,5 +1,7 @@
-const express = require('express');
-const app = express();
+const express 	= require('express');
+const app 		= express();
+
+const routes 	= require('./routes');
 
 
 /* App Setup
@@ -11,9 +13,7 @@ app.set('view engine', 'pug');
 /* Routes
 ****************/
 
-app.get('/', (req, res) => {
-	res.render('index');
-});
+app.use(routes);
 
 
 /* Server
