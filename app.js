@@ -8,6 +8,7 @@ const routes 	= require('./routes');
 ****************/
 
 app.set('view engine', 'pug');
+app.use('/public', express.static('public'));
 
 
 /* Routes

@@ -1,1 +1,11 @@
-h1 Hello, World
+extends layout.pug
+
+block body 
+	.bounds.app--body
+		include partials/sections-header.pug
+
+		include partials/tweet-list.pug
+
+		include partials/user-list.pug
+
+		include partials/message-list.pug
