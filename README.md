@@ -1,3 +1,5 @@
+**Waiting for Twitter App Approval**
+
 # Twitter Interface 
 
 Use Twitter’s REST API to access your Twitter profile information and render it to a user. The page should automatically authenticate access to your Twitter profile. It should use this access to populate three columns on your page:
